@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+sup {
+    color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+.div-blur{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1a1717b0;
+    height: 800px;
+    padding: 20px;
+}
+header {
+    height: 800px;
+    background-image: url("./images/hero_1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    /* opacity: 50%; */
+    /* filter: blur(8px); */
+    /* background-position: center; */
+    /* padding: 20px; */
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.inline-p{
+    display: flex;
+    margin-left: 370px;
+    margin-right: 100px;position: relative;
+}
+.header-p{
+    width: 600px;
+    display: flex;
+    justify-content:space-evenly;
+    position: absolute;
+    left: 554px;
+    top: 63px;
+}
+header img {
+    /* margin-right: 900px; */
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+header p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1150px;
+    height: 80px;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 100px
+}
+.menu a {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.menu a:hover {
+    color: #FFD43B;
+}
+.social a {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+/* .get-touch { */
+    /* width: 500px; */
+    /* margin-left: -745px;
+    margin-top: 102px; */
+    /* display: block;
+    /* justify-content: flex-start;
+    align-items: start; */
+/* }  */
+.get-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 400px; 
+    margin-top: 102px;
+}
+.get-touch h1,
+.get-touch span,
+.get-touch p {
+    margin: 10px 0;
+}
+.get-touch h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+#span{
+    color: white;
+}
+.get-touch span {
+    font-size: 1.2rem;
+    color: red;
+}
+.get-touch p a {
+    color: white;
+    text-decoration: none;
+}
+.get-touch p a:hover {
+    color: #FFD43B;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 90%; 
+}
+main {
+    background-color: #f4f4f4;
+    padding: 50px;
+    width: 40%;
+    /* margin: 50px auto; */
+    margin: 43px 2px 43px 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+main input[type="text"], 
+main textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+main input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+main button {
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 37px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+main button:hover {
+    background-color: #c82333;
+}
+aside {
+    width: 300px;
+    padding: 30px;
+    background-color: #f6f5f5;
+    color: #1a1717;
+    margin-right: 417px;
+    border-radius: 10px;
+    height: 500px;
+}
+aside h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+aside p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+aside span {
+    font-weight: bold;
+}
+footer {
+    background-color: #343a40;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    /* border: 200px solid #343a40; */
+    border-top: 80px solid #343a40;
+    border-bottom: 80px solid #343a40;
+    border-right: 250px solid #343a40;
+    border-left: 250px solid #343a40;
+}
+.about-social{
+    display: block;
+}
+footer h4 {
+    margin-bottom: 15px;
+    color: #fd4d40;
+}
+footer p, footer a {
+    color: #c2bbbb;
+    text-decoration: none;
+}
+footer a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+footer a:hover {
+    color: white;
+}
+footer hr {
+    width: 100%;
+    border: 1px solid hsl(0, 1%, 28%);
+    margin: 97px 0;
+}
+footer p {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: white;
+}
